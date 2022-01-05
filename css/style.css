@@ -1,0 +1,13 @@
+.navColor{
+    background-color: #461111;
+}
+.countriesAll{
+    border: olivedrab solid 2px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+#showAll{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

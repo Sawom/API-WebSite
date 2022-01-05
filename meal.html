@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navColor navbar-expand-lg navbar-dark ">
+            <br><br>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"> Kanye Quotes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="buddies.html">Random User</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="country.html">Countries</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="meal.html">Meal</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+        </nav>
+    </header>
+    <!-- input section -->
+    <br><br>
+    <section class="container ">
+        <div>
+            <h1 class="text-center text-success">Hungry Naki?</h1>
+            <h3 class="text-center text-success">Search Meal Here</h3>
+        </div>
+        <div class="input-group mb-3 w-50 mx-auto">
+            <input id="inputField" type="text" class="form-control " placeholder="search meal here" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button onclick="loadFood()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+        </div>
+        <br>
+    </section>
+    <br><br>
+    <!-- single meal -->
+    <section  class="container w-50" id="singleMeal">
+
+    </section>
+    <br><br>
+    <!-- display result -->
+    <section class="container">
+        <div id="displayFood" class="row row-cols-1 row-cols-md-3 g-4">
+            
+        </div>
+    </section>
+    <br><br><br>
+    <script src="js/meal.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
